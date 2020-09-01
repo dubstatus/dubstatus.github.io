@@ -15,4 +15,7 @@
 ## Site
 https://dubstatus.github.io/
 
-![DubStatus demo](https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot3.png)
+<table><tr>
+<td> <img src="https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot3.png" alt="snapshot" style="width: 250px;"/> </td>
+<td> <img src="https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot3.png" alt="snapshot" style="width: 250px;"/> </td>
+</tr></table>
