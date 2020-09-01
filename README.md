@@ -3,6 +3,7 @@
   
   **Check If Dubbed Version is available**
   
+  [![https://dubstatus.github.io/](https://img.shields.io/website-up-down-green-red/http/myfakewebsitethatshouldnotexist.at.least.i.hope.svg)](http://myfakewebsitethatshouldnotexist.at.least.i.hope/)
  <table>
 <tr>
 <td>
