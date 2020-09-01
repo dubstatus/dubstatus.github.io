@@ -3,7 +3,12 @@
   
   **Check If Dubbed Version is available**
   
-  [![https://dubstatus.github.io/](https://img.shields.io/website-up-down-green-red/http/myfakewebsitethatshouldnotexist.at.least.i.hope.svg)](http://myfakewebsitethatshouldnotexist.at.least.i.hope/)
+  [![made-with-javascript](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)]()
+  
+  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]()
+  
+  [![https://dubstatus.github.io/](https://img.shields.io/website-up-down-green-red/http/myfakewebsitethatshouldnotexist.at.least.i.hope.svg)]()
+  
  <table>
 <tr>
 <td>
