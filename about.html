@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <title>DubStatus : About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
     
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -19,11 +23,11 @@
 
     <!--Navbar-->
     <nav class="navbar justify-content-between" style="background-color:#222831;">
-        <a href="index.html?reset=true" class="navbar-brand" style="font-family: 'IBM Plex Sans', sans-serif;"><span style="color:#32e0c4;">Dub</span><span style="color:#eeeeee;">Status</span></a>
-        <form class="form-inline"  onsubmit="return false" autocomplete="off">
+        <a href="index.html?home" class="navbar-brand" style="font-family: 'IBM Plex Sans', sans-serif;"><span style="color:#32e0c4;">Dub</span><span style="color:#eeeeee;">Status</span></a>
+        <form class="form-inline"  method="get" autocomplete="off">
           
-          <input id="search_input" class="form-control mr-sm-2" type="search" placeholder="Search Anime" aria-label="Search">
-          <button id="search_button" class="btn my-2 my-sm-0 round-pill" type="submit" style="background-color:#32e0c4;font-family: 'Frank Ruhl Libre', serif;">Search</button>
+          <input id="search_input" name="search" class="form-control mr-sm-2" type="search" placeholder="Search Anime" aria-label="Search">
+          <button id="search_button" class="btn my-2 my-sm-0" type="submit" style="background-color:#32e0c4;font-family: 'Frank Ruhl Libre', serif;">Search</button>
         </form>
       </nav>
 
@@ -31,7 +35,7 @@
 
   <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark" style="background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);">
     <div class="col-md-6 px-0">
-      <p class="lead my-3">DubStatus serves anime dubs available data and its dub related announcements in one place</p>
+      <p  style="font-family: 'Frank Ruhl Libre', serif;" class="lead my-3">DubStatus serves anime dubs available data and its dub related announcements in one place</p>
     </div>
   </div>
 
@@ -40,8 +44,8 @@
       <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
           <strong class="mb-2 text-primary d-none d-lg-block">Snapshot</strong>
-          <h3 class="mb-0">Dubs Available</h3>
-          <p class="card-text mb-auto">Data is collected from APIs to find number of dubs available</p>
+          <h3  style="font-family: 'Frank Ruhl Libre', serif;" class="mb-0">Dubs Available</h3>
+          <p style="font-family: 'Lora', serif;" class="card-text mb-auto">Data is collected from APIs to find number of dubs available</p>
           
         </div>
         <div class="col-auto d-none d-lg-block">
@@ -53,8 +57,8 @@
       <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
             <strong class="mb-2 text-primary d-none d-lg-block">Snapshot</strong>
-          <h3 class="mb-0">Dubs Announcement</h3>
-          <p class="mb-auto">Dub News are collected from Animenewsnewtwork API</p>
+          <h3  style="font-family: 'Frank Ruhl Libre', serif;" class="mb-0">Dubs Announcement</h3>
+          <p style="font-family: 'Lora', serif;" class="mb-auto">Dub News are collected from Anime News Network API</p>
         </div>
         <div class="col-auto d-none d-lg-block">
             <img src="assets/snapshot2.jpeg" height="300px" width="200px" class="d-inline-block align-top" alt="">
@@ -67,27 +71,27 @@
 <main role="main" class="container">
   <div class="row">
     <div class="col-md-8 blog-main">
-      <h3 class="pb-4 mb-4 font-italic border-bottom">
+      <h1  style="font-family: 'Frank Ruhl Libre', serif;" class="pb-4 mb-4 border-bottom">
         About the Project
-      </h3>
+      </h1>
 
-      <div>
+      <div style="font-family: 'Lora', serif;">
         <p>Ever wasted time searching through google and opening every result to find if the dub version of an anime is available or not?
-            Dont worry, with this page you can just enter the name of your anime and voila, you can get your desired result.</p>
-        <h2>APIs : </h2>
-        <p>List of all apis for finding dubs and news:</p>
+            Don't worry, with this page you can just enter the name of your anime and voila, you can get your desired result.</p>
+        <h2  style="font-family: 'Frank Ruhl Libre', serif;">APIs : </h2>
+        <p>List of all APIs for finding dubs and news:</p>
         <ul>
-          <li class="mb-1"><a href="#">
+          <li class="mb-1"><a href="https://jikan.moe/">
              Jikan API
           </a></li>
-          <li  class="mb-1"><a href="#">
+          <li  class="mb-1"><a href="https://anilist.gitbook.io/anilist-apiv2-docs/">
              AniList API
           </a></li>
-          <li  class="mb-1"><a href="#">
+          <li  class="mb-1"><a href="https://www.animenewsnetwork.com/encyclopedia/api.php">
              Anime News Network API
           </a></li>
         </ul>
-        <h2>Libraries & Frameworks : </h2>
+        <h2  style="font-family: 'Frank Ruhl Libre', serif;">Libraries & Frameworks : </h2>
         <ul>
             <li  class="mb-1"><a href="https://jquery.com/">jQuery
               </a></li>
@@ -101,21 +105,21 @@
                 jQuery LoadingOverlay
             </a></li>
           </ul>
-        <h2>Data Sources : </h2>
+        <h2  style="font-family: 'Frank Ruhl Libre', serif;">Data Sources : </h2>
         <ul>
-            <li  class="mb-1"><a href="#">AniList
+            <li  class="mb-1"><a href="https://anilist.co/">AniList
               </a></li>
-            <li class="mb-1"><a href="#">
+            <li class="mb-1"><a href="https://myanimelist.net/">
             MyAnimeList
             </a></li>
-            <li  class="mb-1"><a href="#">
+            <li  class="mb-1"><a href="https://www.animenewsnetwork.com/">
                Anime News Network
             </a></li>
           </ul>
-          <h2>Limitations : </h2>
+          <h2  style="font-family: 'Frank Ruhl Libre', serif;">Limitations : </h2>
         <p>Though the project provides accurate details for many titles. Due to different APIs using different ID System, matching them correctly is a problem. List of abnormalities you may come across :</p>
         <ul>
-          <li>Data sources pointing to wrong webpages.</li>
+          <li>Data sources pointing to wrong web pages.</li>
           <li>Wrong available dubs are shown on the page with wrong news.</li>
           <li>Only few upcoming titles show dub status.</li>
         </ul>
@@ -126,7 +130,7 @@
         <button class="btn btn-outline-primary mb-5"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
             <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-          </svg><a class="btn" href="index.html">Return To Home</a></button>
+          </svg><a class="btn" href="index.html?home">Return To Home</a></button>
       </nav>
 
     </div>

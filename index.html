@@ -64,12 +64,12 @@
 
         <div class="jumbotron jumbotron-fluid" style="background-color:#222831;">
           <div class="container">
-            <h1 class="display-4" style="font-family: 'IBM Plex Sans', sans-serif;"><a href="index.html?reset=true"><span style="color:#32e0c4;">Dub</span><span style="color:#eeeeee;">Status</span></a></h1>
+            <h1 class="display-4" style="font-family: 'IBM Plex Sans', sans-serif;"><a href="index.html?home"><span style="color:#32e0c4;">Dub</span><span style="color:#eeeeee;">Status</span></a></h1>
             <p class="lead" style="color:#eeeeee;font-family: 'Frank Ruhl Libre', serif;">Check if dubbed version is available</p>
-            <form onsubmit="return false" autocomplete="off" >
+            <form  action="index.html" method="get" autocomplete="off" >
                 <div class="form-row">
                     <div class="col-md mb-2">
-                      <input type="text" class="form-control" placeholder="Enter Anime Name" id="search_input">
+                      <input name="search" type="text" class="form-control" placeholder="Enter Anime Name" id="search_input">
                     </div>
                     <div class="col-md">
                       <button type="submit hover" class="btn" id="search_button" style="background-color:#32e0c4;font-family: 'Frank Ruhl Libre', serif;">Search</button>
@@ -84,7 +84,7 @@
           <div id="search_results_container" class="container display-none" style="font-family: 'Frank Ruhl Libre', serif;">
           
           
-            <h6 style="font-family: 'Frank Ruhl Libre', serif;"><a href="index.html?reset=true">
+            <h6 style="font-family: 'Frank Ruhl Libre', serif;"><a href="index.html?home">
               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
                 <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
@@ -99,9 +99,9 @@
           <div id="intro_container" class="container">
             <div class="d-flex justify-content-center mb-4">
               <div class="btn-group" role="group" aria-label="Basic example">
-                <button id="current_season_button" type="button" class="font-size-12 btn btn-outline-secondary ">Current Season</button>
-                <button id="topairing_season_button" type="button" class="font-size-12 btn btn-outline-secondary" disabled>Top Airing</button>
-                <button id="upcoming_anime_button" type="button" class="font-size-12 btn btn-outline-secondary">Upcoming Anime</button>
+                <button id="current_season_button" type="button" class="font-size-12 btn btn-secondary ">Current Season</button>
+                <button id="topairing_season_button" type="button" class="font-size-12 btn btn-secondary" disabled>Top Airing</button>
+                <button id="upcoming_anime_button" type="button" class="font-size-12 btn btn-secondary">Upcoming Anime</button>
               </div>
             </div>
             
@@ -116,16 +116,24 @@
 
         
 
-        <footer class="mt-auto navbar-fixed-bottom d-flex justify-content-center" style="background-color: #393e46;">
-          <p class="m-4">
-            <a href="index.html?reset=true">Home</a>
-          </p>
-          <p class="m-4">
-            <a href="about.html">About</a>
-          </p>
-          <p class="m-4">
-            <a href="https://github.com/dubstatus/dubstatus.github.io">Github</a>
-          </p>
+        <footer class="mt-auto navbar-fixed-bottom" style="background-color: #393e46;">
+          <div class=" d-flex justify-content-center">
+            <p  class="m-2" style="color:#eeeeee;font-family: 'Frank Ruhl Libre', serif;">
+                If data isn't loading, please refresh or try to clean cookies and cache
+            </p>
+          </div>
+          <div class=" d-flex justify-content-center">
+            <p class="ml-4 mr-4">
+              <a href="index.html?reset=true">Home</a>
+            </p>
+            <p class="ml-4 mr-4">
+              <a href="about.html">About</a>
+            </p>
+            <p class="ml-4 mr-4">
+              <a href="https://github.com/dubstatus/dubstatus.github.io">Github</a>
+            </p>
+          </div>
+          
         </footer>
 
       
