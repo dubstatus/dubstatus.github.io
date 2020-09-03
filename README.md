@@ -9,7 +9,7 @@
   DubStatus serves anime dubs available data and its dub related announcements in one place
 </td>
 </tr>
-</table>
+</table></div>
 
  ## Website
  
@@ -31,7 +31,6 @@ https://dubstatus.github.io/
   </td> 
  </table
 
-</div>
 
 ## APIs
 
