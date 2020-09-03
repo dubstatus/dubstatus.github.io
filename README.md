@@ -34,56 +34,30 @@ https://dubstatus.github.io/
 </div>
 
 ## APIs
-<div align="left>
-  List of all APIs for finding dubs and news:
 
- <li class="mb-1"><a href="https://jikan.moe/">
-     Jikan API
-          </a></li>
-          <li  class="mb-1"><a href="https://anilist.gitbook.io/anilist-apiv2-docs/">
-             AniList API
-          </a></li>
-          <li  class="mb-1"><a href="https://www.animenewsnetwork.com/encyclopedia/api.php">
-             Anime News Network API
-          </a></li>
-</div>  
+List of all APIs for finding dubs and news:
 
+* [Jikan API](https://jikan.moes)
+* [AniList API](https://anilist.gitbook.io/anilist-apiv2-docs/)
+* [Anime News Network API](https://www.animenewsnetwork.com/encyclopedia/api.php)
   
 ## Libraries & Frameworks
 
- <ul>
-    <li  class="mb-1"><a href="https://jquery.com/">jQuery
-      </a></li>
-            <li class="mb-1"><a href="https://getbootstrap.com/">
-                Bootstrap
-            </a></li>
-            <li  class="mb-1"><a href="https://github.com/verlok/vanilla-lazyload">
-                Vanilla-lazyload
-            </a></li>
-            <li  class="mb-1"><a href="https://gasparesganga.com/labs/jquery-loading-overlay/">
-                jQuery LoadingOverlay
-            </a></li>
-          </ul>
-          
-          
+* [jQuery](https://jquery.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Vanilla-lazyload](https://github.com/verlok/vanilla-lazyload)
+* [jQuery LoadingOverlay](https://gasparesganga.com/labs/jquery-loading-overlay/)
+
+              
 ## Data Sources :
 
-<ul>
-            <li  class="mb-1"><a href="https://anilist.co/">AniList
-              </a></li>
-            <li class="mb-1"><a href="https://myanimelist.net/">
-            MyAnimeList
-            </a></li>
-            <li  class="mb-1"><a href="https://www.animenewsnetwork.com/">
-               Anime News Network
-            </a></li>
-          </ul>
-
+* [AniList](https://anilist.co//)
+* [MyAnimeList](https://myanimelist.net)
+* [Anime News Network](https://www.animenewsnetwork.com/)
 ## Limitations :
 
-<p>Though the project provides accurate details for many titles. Due to different APIs using different ID System, matching them correctly is a problem. List of abnormalities you may come across :</p>
-        <ul>
-          <li>Data sources pointing to wrong web pages.</li>
-          <li>Wrong available dubs are shown on the page with wrong news.</li>
-          <li>Only few upcoming titles show dub status.</li>
-        </ul>
+Though the project provides accurate details for many titles. Due to different APIs using different ID System, matching them correctly is a problem. List of abnormalities you may come across :
+
+* Data sources pointing to wrong web pages.
+* Wrong available dubs are shown on the page with wrong news.
+* Only few upcoming titles show dub status.
