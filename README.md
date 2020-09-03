@@ -29,11 +29,10 @@ https://dubstatus.github.io/
   <td>
     <img src="https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot2.jpeg" height="400px" alt="snapshot"/>
   </td> 
- </table
+ </table>
 
 
-## APIs
-
+## API's
 List of all APIs for finding dubs and news:
 
 * [Jikan API](https://jikan.moes)
