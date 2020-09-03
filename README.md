@@ -10,16 +10,22 @@
 </td>
 </tr>
 </table>
-</div>
 
-## Site
+ ## Website
+ 
 https://dubstatus.github.io/
 
 <table><tr>
-<td> <img src="https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot3.png" alt="snapshot";"/> </td>
-<td> <img src="https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot5.png" alt="snapshot""/> </td>
+<td> <img src="https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot3.png" alt="snapshot"/> </td>
+<td> <img src="https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot5.png" alt="snapshot"/> </td>
 </tr></table>
 
 ## Mobile support
 
-![](https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot4.png)
+<table>
+  <tr>
+    <img src="https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot4.jpeg" height="400px" alt="snapshot"/>
+  </tr> 
+ </table
+
+</div>
