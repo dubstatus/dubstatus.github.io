@@ -34,7 +34,7 @@ https://dubstatus.github.io/
 </div>
 
 ## APIs
-<div>
+<div align="left>
   List of all APIs for finding dubs and news:
 
  <li class="mb-1"><a href="https://jikan.moe/">
