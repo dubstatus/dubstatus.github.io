@@ -34,11 +34,11 @@ https://dubstatus.github.io/
 </div>
 
 ## APIs
-  
+<div>
   List of all APIs for finding dubs and news:
 
  <li class="mb-1"><a href="https://jikan.moe/">
-             Jikan API
+     Jikan API
           </a></li>
           <li  class="mb-1"><a href="https://anilist.gitbook.io/anilist-apiv2-docs/">
              AniList API
@@ -46,6 +46,8 @@ https://dubstatus.github.io/
           <li  class="mb-1"><a href="https://www.animenewsnetwork.com/encyclopedia/api.php">
              Anime News Network API
           </a></li>
+</div>  
+
   
 ## Libraries & Frameworks
 
