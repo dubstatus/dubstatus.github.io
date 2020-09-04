@@ -20,17 +20,6 @@ https://dubstatus.github.io/
 <td> <img src="https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot5.png" alt="snapshot"/> </td>
 </tr></table>
 
-## Mobile support
-
-<table>
-  <td>
-    <img src="https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot4.jpeg" height="400px" alt="snapshot"/>
-  </td>
-  <td>
-    <img src="https://github.com/dubstatus/dubstatus.github.io/blob/master/assets/snapshot2.jpeg" height="400px" alt="snapshot"/>
-  </td> 
- </table>
-
 
 ## API's
 List of all APIs for finding dubs and news:
