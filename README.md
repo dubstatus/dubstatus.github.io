@@ -43,7 +43,7 @@ List of all APIs for finding dubs and news:
 * [Anime News Network](https://www.animenewsnetwork.com/)
 ## Limitations :
 
-Though the project provides accurate details for many titles. Due to different APIs using different ID System, matching them correctly is a problem. List of abnormalities you may come across :
+Although this project provides accurate details for many titles. Due to different APIs using different ID System, matching them correctly is a problem. List of abnormalities you may come across :
 
 * Data sources pointing to wrong web pages.
 * Wrong available dubs are shown on the page with wrong news.
